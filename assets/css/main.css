@@ -2264,7 +2264,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 5%;
 		}
 
 			.image.avatar:before {
@@ -2272,7 +2272,7 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 5%;
 				width: 100%;
 			}
 
@@ -2724,20 +2724,20 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #4788ca;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: #fff;
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 20%;
 	}
 
 		#header > * {
@@ -2766,7 +2766,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			font-size: 1.1em;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -2815,9 +2815,9 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 23%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 5em 3em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -3131,7 +3131,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 20%;
 			}
 
 				#header h1 {
